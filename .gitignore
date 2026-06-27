@@ -56,3 +56,6 @@ app.log
 Thumbs.db
 Desktop.ini
 venv/
+venv/
+*.pyc
+__pycache__/
