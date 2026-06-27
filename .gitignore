@@ -1,4 +1,57 @@
-# Environment variables
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment - CRITICAL
+venv/
+env/
+ENV/
+.venv/
+venv.bak/
+
+# Environment variables - CRITICAL
 .env
 .env.local
 .env.*.local
+.env.production
+.env.development
+*.env
+
+# Uploads and temporary files
+uploads/
+*.pdf
+*.log
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Qdrant storage
+qdrant_storage/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Application logs
+app.log
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
