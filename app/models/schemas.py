@@ -1,29 +1,15 @@
-from pydantic import BaseModel, Field
-from typing import Optional, List
-from datetime import datetime
-import uuid
-
-class DocumentUploadResponse(BaseModel):
-    
+class ChunkingResponse(BaseModel):
     document_id: str
-    filename: str
-    page_count: int
-    character_count: int
-    word_count: int
+    total_chunks: int
+    avg_chunk_size: float
+    min_chunk_size: int
+    max_chunk_size: int
+    total_words: int
     status: str
     message: str
-    uploaded_at: datetime
 
-class DocumentMetadata(BaseModel):
-    
+class ChunkInfo(BaseModel):
+    chunk_index: int
+    word_count: int
+    text_preview: str
     document_id: str
-    filename: str
-    page_count: int
-    total_chunks: Optional[int] = None
-    uploaded_at: datetime
-    
-class ErrorResponse(BaseModel):
-    
-    error: str
-    detail: Optional[str] = None
-    status_code: int

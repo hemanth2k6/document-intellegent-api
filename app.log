@@ -13,3 +13,5 @@
 2026-06-27 22:36:21,520 - app.utils.logging - INFO - Extracted 6257 characters from 4 pages
 2026-06-27 22:36:21,521 - app.utils.logging - INFO - Cleaned text: 6213 characters
 2026-06-27 22:36:21,522 - app.utils.logging - INFO - Upload successful: 045b2a6e-b478-4792-b939-db30ac105c7a
+2026-06-27 23:16:40,348 - app.utils.logging - INFO - Split into 13 sentences
+2026-06-27 23:16:40,349 - app.utils.logging - INFO - Created 6 chunks for document test_doc_123. Average chunk size: 42.2 words
