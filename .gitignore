@@ -4,21 +4,22 @@ __pycache__/
 *$py.class
 *.so
 .Python
+*.pyc
 
-# Virtual Environment - CRITICAL
+# Virtual Environment
 venv/
 env/
 ENV/
 .venv/
 venv.bak/
 
-# Environment variables - CRITICAL
+# Environment variables (privacy/secrets) - keep .env.example tracked
 .env
 .env.local
 .env.*.local
 .env.production
 .env.development
-*.env
+!.env.example
 
 # Uploads and temporary files
 uploads/
@@ -50,12 +51,7 @@ htmlcov/
 
 # Application logs
 app.log
-*.log
 
 # OS
 Thumbs.db
 Desktop.ini
-venv/
-venv/
-*.pyc
-__pycache__/
