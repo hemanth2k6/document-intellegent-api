@@ -4,215 +4,47 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-pip-wheel-metadata/
-share/python-wheels/
-
-# Virtual Environment
 venv/
 env/
 ENV/
-env.bak/
-venv.bak/
-pythonenv*
 .venv
-venv-*
 
-# IDE / Editor
+# Environment variables (CRITICAL - hides your API keys)
+.env
+.env.local
+.env.*.local
+
+# Uploads and temporary files
+uploads/
+*.pdf
+*.log
+*.tmp
+*.temp
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+
+# OS
 .DS_Store
-*.sublime-project
-*.sublime-workspace
-.settings/
-.project
-.pydevproject
-*.code-workspace
+Thumbs.db
 
-# Environment Variables
-.env
-.env.local
-.env.*.local
-.env.production
-.env.staging
-*.env
-!.env.example
-
-# Uploaded Files & Storage
-uploads/
-*.pdf
-*.doc
-*.docx
-*.txt
-*.log
+# Qdrant storage (if running locally)
 qdrant_storage/
-storage/
-temp/
-tmp/
-*.tmp
-*.temp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Database
 *.db
 *.sqlite
 *.sqlite3
 
-# Logs
-logs/
+# Application logs
+app.log
 *.log
-app.log
-*.log.*
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-*.cover
-.hypothesis/
-.pytest_cache/
-*.test
-test_*.pyc
-!test_*.py
-
-# Jupyter Notebooks
-.ipynb_checkpoints/
-*.ipynb
-
-# Docker
-.dockerignore
-docker-compose.override.yml
-*.pid
-*.pid.lock
-docker-compose.*.yml
-!docker-compose.yml
-
-# API Keys / Secrets
-secrets/
-*.key
-*.pem
-*.crt
-*.p12
-.credentials/
-credentials.json
-client_secret*.json
-service_account*.json
-
-# OS Files
-Thumbs.db
-Desktop.ini
-.directory
-*.bak
-*.orig
-*.rej
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre
-.pyre/
-
-# pytype
-.pytype/
-
-# Profiling
-*.prof
-*.gcda
-*.gcno
-
-# Coverage
-.coverage.*
-coverage.xml
-*.cover
-
-# Build tools
-*.egg-info/
-*.dist-info/
-site/
-*.so
-
-# Debug
-debug/
-*.dbg
-*.pdb
-
-# Backup files
-*.backup
-*.old
-*.bak
-
-# Project specific
-app.log
-test_output/
-output/
-data/
-*.pkl
-*.pickle
-*.parquet
-
-# Qdrant local storage
-qdrant_storage/
-!qdrant_storage/.gitkeep
-
-# Vector DB files
-vectors/
-embeddings/
-*.vecdb
-
-# Upload directory but keep the folder structure
-uploads/
-!uploads/.gitkeep
-
-# Temporary files from text extraction
-extracted_texts/
-*.extracted
-*.chunked
-
-# API responses cache
-.cache/
-*.cache
-
-# Large files (optional - adjust as needed)
-*.mp4
-*.avi
-*.mov
-*.mp3
-*.wav
-*.zip
-*.tar.gz
-*.rar
-
-# Alembic migrations (if using SQL)
-alembic/versions/__pycache__/
-
-# Azure, AWS, GCP credentials
-.aws/
-.gcloud/
-.azure/
-.terraform/
-
-# Terraform
-*.tfstate
-*.tfstate.*
-.terraform/
