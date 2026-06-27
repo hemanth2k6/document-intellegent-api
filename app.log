@@ -1,1 +1,15 @@
 2026-06-27 21:26:40,807 - app.utils.logging - INFO - Root endpoint accessed
+2026-06-27 22:34:43,654 - app.utils.logging - INFO - Received upload request: test.pdf
+2026-06-27 22:34:43,655 - app.utils.logging - INFO - Processing file: test.pdf
+2026-06-27 22:34:43,657 - app.utils.logging - INFO - File saved: ./uploads/dfa02017-621c-4fe9-a13f-c0c15b314d69_test.pdf (142786 bytes)
+2026-06-27 22:34:43,771 - app.utils.logging - WARNING - No text extracted from page 4
+2026-06-27 22:34:43,771 - app.utils.logging - INFO - Extracted 6257 characters from 4 pages
+2026-06-27 22:34:43,772 - app.utils.logging - INFO - Cleaned text: 6213 characters
+2026-06-27 22:34:43,773 - app.utils.logging - INFO - Upload successful: dfa02017-621c-4fe9-a13f-c0c15b314d69
+2026-06-27 22:36:21,394 - app.utils.logging - INFO - Received upload request: test.pdf
+2026-06-27 22:36:21,394 - app.utils.logging - INFO - Processing file: test.pdf
+2026-06-27 22:36:21,395 - app.utils.logging - INFO - File saved: ./uploads/045b2a6e-b478-4792-b939-db30ac105c7a_test.pdf (142786 bytes)
+2026-06-27 22:36:21,520 - app.utils.logging - WARNING - No text extracted from page 4
+2026-06-27 22:36:21,520 - app.utils.logging - INFO - Extracted 6257 characters from 4 pages
+2026-06-27 22:36:21,521 - app.utils.logging - INFO - Cleaned text: 6213 characters
+2026-06-27 22:36:21,522 - app.utils.logging - INFO - Upload successful: 045b2a6e-b478-4792-b939-db30ac105c7a
